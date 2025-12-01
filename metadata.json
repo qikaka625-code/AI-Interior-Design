@@ -1,0 +1,5 @@
+{
+  "name": "AI-Interior-Design",
+  "description": "Upload a photo of your room or building and redesign it instantly in over 30 different styles using Gemini 2.5 Flash Image.",
+  "requestFramePermissions": []
+}

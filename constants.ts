@@ -1,0 +1,42 @@
+import { DesignStyle, RoomType } from './types';
+
+export const ROOM_TYPES: RoomType[] = [
+  'Living Room',
+  'Bedroom',
+  'Kitchen',
+  'Bathroom',
+  'Building Exterior',
+];
+
+export const DESIGN_STYLES: DesignStyle[] = [
+  { id: 'modern', name: 'Modern', promptDescription: 'sleek, clean lines, neutral colors, minimalist furniture, functional design' },
+  { id: 'scandinavian', name: 'Scandinavian', promptDescription: 'bright, airy, white walls, wood accents, cozy textiles, hygge atmosphere' },
+  { id: 'industrial', name: 'Industrial', promptDescription: 'exposed brick, metal beams, concrete floors, raw materials, loft style' },
+  { id: 'mid_century', name: 'Mid-Century Modern', promptDescription: 'organic curves, teak wood, retro colors, tapered legs, 1950s aesthetic' },
+  { id: 'bohemian', name: 'Bohemian', promptDescription: 'eclectic, colorful patterns, plants, rattan textures, relaxed vibe, macrame' },
+  { id: 'minimalist', name: 'Minimalist', promptDescription: 'clutter-free, monochromatic, essential forms, open space, zen-like' },
+  { id: 'japandi', name: 'Japandi', promptDescription: 'fusion of Japanese rustic minimalism and Scandinavian functionality, natural materials' },
+  { id: 'rustic', name: 'Rustic', promptDescription: 'natural wood, stone elements, warm earth tones, rugged texture, farmhouse charm' },
+  { id: 'contemporary', name: 'Contemporary', promptDescription: 'current trends, fluid curves, bold accents, sophisticated, cutting-edge' },
+  { id: 'art_deco', name: 'Art Deco', promptDescription: 'geometric patterns, gold accents, velvet, glamour, bold symmetry, 1920s luxury' },
+  { id: 'traditional', name: 'Traditional', promptDescription: 'classic details, rich wood, antique furniture, symmetrical layout, elegant' },
+  { id: 'transitional', name: 'Transitional', promptDescription: 'blend of traditional and modern, balanced, comfortable, neutral palette' },
+  { id: 'coastal', name: 'Coastal', promptDescription: 'breezy, shades of blue and white, natural light, seaside motifs, linen textures' },
+  { id: 'mediterranean', name: 'Mediterranean', promptDescription: 'warm terra cotta, archways, wrought iron, mosaic tiles, sunny atmosphere' },
+  { id: 'farmhouse', name: 'Modern Farmhouse', promptDescription: 'white shiplap, barn doors, galvanized metal, cozy, family-friendly' },
+  { id: 'victorian', name: 'Victorian', promptDescription: 'ornate details, rich colors, velvet upholstery, intricate molding, antique grandeur' },
+  { id: 'gothic', name: 'Gothic Revival', promptDescription: 'dramatic, dark moody colors, pointed arches, stone textures, mysterious elegance' },
+  { id: 'cyberpunk', name: 'Cyberpunk', promptDescription: 'neon lights, high-tech, futuristic, dark aesthetics, holographic accents, urban dystopian' },
+  { id: 'steampunk', name: 'Steampunk', promptDescription: 'brass gears, leather, industrial victorian blend, copper pipes, retro-future' },
+  { id: 'tropical', name: 'Tropical', promptDescription: 'lush greenery, vibrant colors, bamboo, botanical prints, resort vibe' },
+  { id: 'hollywood_regency', name: 'Hollywood Regency', promptDescription: 'glamorous, lacquered finishes, mirrored furniture, bold contrast, opulence' },
+  { id: 'shabby_chic', name: 'Shabby Chic', promptDescription: 'distressed furniture, floral patterns, pastel colors, vintage romanticism' },
+  { id: 'french_country', name: 'French Country', promptDescription: 'rustic elegance, toile fabrics, distressed wood, warm yellows and blues, provincial' },
+  { id: 'bauhaus', name: 'Bauhaus', promptDescription: 'form follows function, primary colors, geometric shapes, industrial materials' },
+  { id: 'zen', name: 'Zen', promptDescription: 'peaceful, low furniture, natural light, indoor nature, balance, harmony' },
+  { id: 'southwestern', name: 'Southwestern', promptDescription: 'desert tones, navajo patterns, adobe textures, rustic wood, cactus plants' },
+  { id: 'maximalist', name: 'Maximalist', promptDescription: 'bold colors, mixed patterns, curated collections, expressive, more is more' },
+  { id: 'brutalist', name: 'Brutalist', promptDescription: 'raw concrete, blocky shapes, heavy visuals, monochromatic, imposing structure' },
+  { id: 'futuristic', name: 'Futuristic', promptDescription: 'sleek curves, white glossy surfaces, LED integration, space-age design' },
+  { id: 'neoclassical', name: 'Neoclassical', promptDescription: 'columns, symmetry, luxury fabrics, timeless elegance, inspired by Greece/Rome' },
+];
